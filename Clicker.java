@@ -36,6 +36,5 @@ public class Clicker implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         clicks += 1;
         numberLabel.setText("number of clicks: " + clicks);
-        numberLabel.setVisible(true);
     }
 }
